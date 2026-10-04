@@ -82,3 +82,30 @@ Real-time military surveillance system with two core capabilities:
 git clone https://github.com/sumit966/military-vehicle-detection.git
 cd military-vehicle-detection
 pip install ultralytics opencv-python opencv-contrib-python Pillow numpy pandas scikit-learn requests
+Requirements
+Place these in the project root:
+
+best.pt — YOLOv8 trained model
+
+haarcascade_frontalface_default.xml — OpenCV cascade
+
+trainingData.yml — LBPH traine
+
+python master_system.py
+
+📊 Results
+Metric	Value
+Vehicle Detection mAP	91.3%
+Face Recognition Accuracy	92%
+Processing Speed	25.9 FPS
+Alert Latency	< 2 seconds
+👤 Author
+Sumit Raj (MT24AAI011)
+
+Portfolio: sumit966-github-io.vercel.app
+
+LinkedIn: linkedin.com/in/er-sumit-raj
+
+GitHub: github.com/sumit966
+
+Email: info.sr0909@gmail.com
