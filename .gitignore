@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.spyproject/
+.ipynb_checkpoints/
+best.pt
+*.pt
+*.h5
+*.pkl
+*.db
+*.sqlite
+captures/
+facesData/
+unauth_user.jpg
+.vscode/
+.DS_Store
